@@ -16,15 +16,20 @@ function wrapGifts(gifts) {
 }
 
 wrapGifts(gifts);*/
-const names=['Ada','Brendan','Ali']
-function writeCards(names){
-    for(let i=0;i < names.length;i++ ){
+let names=["Guadalupe", "Ollie", "Aki"]
+const  writeCards=(names)=>{
+    for(let i=0;i<names.length;i+1 ){
+      return `Thank you, ${names[i]}, for the wonderful birthday gift!`
      
-   return "Thank you,${names[i]}, for the wonderful birthday gift!"
    
-    }
+    }}
+    writeCards(names)
 
-return names
+const countDown=()=>{
+  for(let i=10;i>=0;i--){
+    console.log(i)
+  }
+  
+  }
 
-}
-writeCards();
+
